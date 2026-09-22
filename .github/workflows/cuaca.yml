@@ -40,10 +40,11 @@ jobs:
 
           git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
 
-          BRANCH=$(git branch --show-current || echo main)
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          echo "Branch: $BRANCH"
+
           git fetch origin "$BRANCH"
-          git checkout "$BRANCH"
-          git reset --hard "origin/$BRANCH"
+          git checkout -B "$BRANCH" "origin/$BRANCH"
 
       - name: Prepare data directory
         run: |
@@ -96,7 +97,7 @@ jobs:
           TIMESTAMP=$(TZ=Asia/Jakarta date +"%Y-%m-%d %H:%M:%S WIB")
           git commit -m "docs: update prakiraan cuaca README - $TIMESTAMP [skip ci]"
 
-          BRANCH=$(git branch --show-current || echo main)
+          BRANCH="${GITHUB_REF_NAME:-main}"
 
           for attempt in 1 2 3 4 5; do
             echo "Push attempt $attempt..."

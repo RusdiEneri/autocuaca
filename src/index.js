@@ -5,8 +5,8 @@ import { readState, writeState } from "./storage.js";
 import { sendToDiscord } from "./notifier.js";
 import { updateReadme } from "./readme.js";
 
-// Signature = waktu analisis BMKG + slot pertama → berubah hanya saat BMKG rilis data baru
-const signature = (fc) => `${fc.analysisDate}|${fc.days[0]?.[0]?.local_datetime || ""}`;
+// Signature = waktu analisis BMKG → berubah hanya saat BMKG rilis pembaruan analisis (±2 kali sehari)
+const signature = (fc) => fc.analysisDate;
 
 async function main() {
   console.log("AutoCuaca Monitor started...");
@@ -21,8 +21,11 @@ async function main() {
     results.push({ loc, fc });
   }
 
-  if (results.length === 0) {
-    console.log("Tidak ada data cuaca sama sekali. Skip.");
+  // Guard kelengkapan: jangan update README jika ada lokasi yang gagal diambil
+  if (results.length < LOCATIONS.length) {
+    console.log(
+      `⚠️ Hanya ${results.length}/${LOCATIONS.length} lokasi berhasil diambil. Skip update agar README/state tidak parsial.`
+    );
     return;
   }
 
@@ -32,15 +35,17 @@ async function main() {
 
   for (const { loc, fc } of results) {
     const sig = signature(fc);
+    // Kompatibilitas mundur: jika state sebelumnya menyimpan format lama "analisis|slot"
+    const prevAnalysis = state[loc.key]?.split("|")[0];
 
-    if (state[loc.key] === sig) {
+    if (prevAnalysis === sig) {
       console.log(`✅ ${loc.label}: data belum berubah (analisis ${fc.analysisDate}).`);
       continue;
     }
 
     newState[loc.key] = sig;
     anyChange = true;
-    console.log(`🆕 ${loc.label}: analisis BMKG baru → kirim webhook.`);
+    console.log(`🆕 ${loc.label}: analisis BMKG baru (${fc.analysisDate}) → kirim webhook.`);
     await sendToDiscord(loc, fc);
   }
 
