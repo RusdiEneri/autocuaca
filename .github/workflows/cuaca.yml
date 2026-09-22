@@ -2,7 +2,6 @@ name: BMKG Cuaca Monitor
 
 on:
   schedule:
-    # Cek setiap 30 menit (commit hanya terjadi saat BMKG rilis data baru)
     - cron: "*/30 * * * *"
       timezone: "Asia/Jakarta"
 
