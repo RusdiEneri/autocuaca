@@ -43,7 +43,7 @@ function nowWibString() {
   return new Date(Date.now() + 7 * 3600 * 1000).toISOString().slice(0, 19).replace("T", " ");
 }
 
-function nextSlot(fc) {
+export function nextSlot(fc) {
   const now = nowWibString();
   for (const day of fc.days) {
     for (const s of day) {
@@ -172,11 +172,9 @@ ${locRows}
 
 - Workflow \`.github/workflows/cuaca.yml\` berjalan otomatis setiap **30 menit**.
 - \`src/index.js\` mengambil data dari API publik BMKG \`api.bmkg.go.id/publik/prakiraan-cuaca?adm4=...\`.
-- Jika BMKG merilis analisis baru (±2 kali sehari):
-  - \`README.md\` di-generate ulang lengkap dengan ikon cuaca,
-  - notifikasi **Discord webhook** dikirim per kota,
-  - signature disimpan di \`data/last-cuaca.json\` agar tidak spam,
-  - semuanya di-commit & push otomatis ke branch \`main\`.
+- **Pembaruan README**: di-generate ulang otomatis saat BMKG merilis analisis baru (±2 kali sehari) atau saat slot jam cuaca aktif bergeser (interval 3 jam).
+- **Notifikasi Discord**: dikirim per kota **hanya saat BMKG merilis analisis baru** agar tidak spam.
+- Signature dan slot terakhir disimpan di \`data/last-cuaca.json\`, lalu di-commit & push otomatis ke branch \`main\`.
 
 ---
 

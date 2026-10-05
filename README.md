@@ -2,7 +2,7 @@
 
 > Prakiraan cuaca resmi **BMKG** (3 hari ke depan, interval 3 jam) untuk wilayah **Tuban Kota** dan **Gresik Kota**, diperbarui otomatis oleh GitHub Actions dan ditampilkan langsung di README ini.
 
-🕒 **Update terakhir:** Senin, 05 Oktober 2026 pukul 09.09.24
+🕒 **Update terakhir:** Senin, 05 Oktober 2026 pukul 18.21.16
 🛰️ **Analisis data BMKG:** 2026-10-05T00:00:00
 📡 **Sumber data:** [BMKG — Data Prakiraan Cuaca Terbuka](https://data.bmkg.go.id/prakiraan-cuaca/)
 
@@ -12,8 +12,8 @@
 
 | Lokasi | Cuaca | Suhu | Kelembapan | Angin | Jam |
 | --- | --- | --- | --- | --- | --- |
-| Tuban Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22"> ☀️ Cerah | 31°C | 63% | 7.2 km/j | 10:00 WIB |
-| Gresik Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22"> ☀️ Cerah | 34°C | 43% | 7.3 km/j | 10:00 WIB |
+| Tuban Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22"> ☁️ Berawan | 28°C | 82% | 8.9 km/j | 19:00 WIB |
+| Gresik Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22"> ☁️ Berawan | 29°C | 69% | 15.1 km/j | 19:00 WIB |
 
 ---
 
@@ -26,9 +26,6 @@
 
 | 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
 | --- | --- | --- | --- | --- | --- | --- |
-| 10:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 31°C | 63% | 7.2 km/j | dari Timur Laut | – |
-| 13:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 32°C | 67% | 12.7 km/j | dari Utara | – |
-| 16:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 28°C | 76% | 12.3 km/j | dari Utara | – |
 | 19:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22" alt="Berawan"> ☁️ Berawan | 28°C | 82% | 8.9 km/j | dari Timur Laut | – |
 | 22:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 81% | 10.9 km/j | dari Selatan | – |
 
@@ -63,7 +60,7 @@
 
 | Hari | Cuaca Dominan | Suhu | Kelembapan |
 | --- | --- | --- | --- |
-| Senin, 5 Oktober 2026 | ☀️ Cerah | 26–32°C | 63–82% |
+| Senin, 5 Oktober 2026 | ☁️ Berawan | 26–28°C | 81–82% |
 | Selasa, 6 Oktober 2026 | ☀️ Cerah | 24–32°C | 59–85% |
 | Rabu, 7 Oktober 2026 | ☀️ Cerah | 24–33°C | 54–86% |
 
@@ -78,9 +75,6 @@
 
 | 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
 | --- | --- | --- | --- | --- | --- | --- |
-| 10:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 34°C | 43% | 7.3 km/j | dari Timur Laut | – |
-| 13:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 34°C | 40% | 16.4 km/j | dari Timur | – |
-| 16:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 31°C | 49% | 14.2 km/j | dari Timur | – |
 | 19:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22" alt="Berawan"> ☁️ Berawan | 29°C | 69% | 15.1 km/j | dari Timur | – |
 | 22:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah%20berawan-pm.svg" width="22" alt="Cerah Berawan"> 🌤️ Cerah Berawan | 27°C | 77% | 12.2 km/j | dari Timur | – |
 
@@ -115,7 +109,7 @@
 
 | Hari | Cuaca Dominan | Suhu | Kelembapan |
 | --- | --- | --- | --- |
-| Senin, 5 Oktober 2026 | ☀️ Cerah | 27–34°C | 40–77% |
+| Senin, 5 Oktober 2026 | ☁️ Berawan | 27–29°C | 69–77% |
 | Selasa, 6 Oktober 2026 | ☀️ Cerah | 25–35°C | 41–86% |
 | Rabu, 7 Oktober 2026 | ☀️ Cerah | 25–35°C | 43–85% |
 
@@ -133,11 +127,9 @@
 
 - Workflow `.github/workflows/cuaca.yml` berjalan otomatis setiap **30 menit**.
 - `src/index.js` mengambil data dari API publik BMKG `api.bmkg.go.id/publik/prakiraan-cuaca?adm4=...`.
-- Jika BMKG merilis analisis baru (±2 kali sehari):
-  - `README.md` di-generate ulang lengkap dengan ikon cuaca,
-  - notifikasi **Discord webhook** dikirim per kota,
-  - signature disimpan di `data/last-cuaca.json` agar tidak spam,
-  - semuanya di-commit & push otomatis ke branch `main`.
+- **Pembaruan README**: di-generate ulang otomatis saat BMKG merilis analisis baru (±2 kali sehari) atau saat slot jam cuaca aktif bergeser (interval 3 jam).
+- **Notifikasi Discord**: dikirim per kota **hanya saat BMKG merilis analisis baru** agar tidak spam.
+- Signature dan slot terakhir disimpan di `data/last-cuaca.json`, lalu di-commit & push otomatis ke branch `main`.
 
 ---
 

@@ -3,10 +3,25 @@ import { LOCATIONS, WEBHOOK_URL } from "./config.js";
 import { fetchCuaca } from "./fetchCuaca.js";
 import { readState, writeState } from "./storage.js";
 import { sendToDiscord } from "./notifier.js";
-import { updateReadme } from "./readme.js";
+import { updateReadme, nextSlot } from "./readme.js";
 
-// Signature = waktu analisis BMKG → berubah hanya saat BMKG rilis pembaruan analisis (±2 kali sehari)
-const signature = (fc) => fc.analysisDate;
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// Normalisasi entri state agar kompatibel dengan versi sebelumnya (string atau objek)
+function parseEntry(entry) {
+  if (!entry) return { analysisDate: "", slot: "" };
+  if (typeof entry === "object") {
+    return {
+      analysisDate: entry.analysisDate || "",
+      slot: entry.slot || "",
+    };
+  }
+  const parts = String(entry).split("|");
+  return {
+    analysisDate: parts[0] || "",
+    slot: parts[1] || "",
+  };
+}
 
 async function main() {
   console.log("AutoCuaca Monitor started...");
@@ -31,25 +46,45 @@ async function main() {
 
   const state = readState();
   const newState = { ...state };
-  let anyChange = false;
+  let readmeNeedsUpdate = false;
+  const notifiedLocations = [];
 
   for (const { loc, fc } of results) {
-    const sig = signature(fc);
-    // Kompatibilitas mundur: jika state sebelumnya menyimpan format lama "analisis|slot"
-    const prevAnalysis = state[loc.key]?.split("|")[0];
+    const currentAnalysis = fc.analysisDate;
+    const currentSlot = nextSlot(fc)?.local_datetime || "";
+    const prev = parseEntry(state[loc.key]);
 
-    if (prevAnalysis === sig) {
-      console.log(`✅ ${loc.label}: data belum berubah (analisis ${fc.analysisDate}).`);
-      continue;
+    const isNewAnalysis = prev.analysisDate !== currentAnalysis;
+    const isNewSlot = prev.slot !== currentSlot;
+
+    if (isNewAnalysis) {
+      console.log(`🆕 ${loc.label}: analisis BMKG baru (${currentAnalysis}) → jadwalkan webhook & update README.`);
+      notifiedLocations.push({ loc, fc });
+      readmeNeedsUpdate = true;
+    } else if (isNewSlot) {
+      console.log(`⏰ ${loc.label}: slot cuaca aktif bergeser (${prev.slot || "awal"} → ${currentSlot}) → update README.`);
+      readmeNeedsUpdate = true;
+    } else {
+      console.log(`✅ ${loc.label}: data identik (analisis ${currentAnalysis}, slot ${currentSlot}).`);
     }
 
-    newState[loc.key] = sig;
-    anyChange = true;
-    console.log(`🆕 ${loc.label}: analisis BMKG baru (${fc.analysisDate}) → kirim webhook.`);
-    await sendToDiscord(loc, fc);
+    newState[loc.key] = {
+      analysisDate: currentAnalysis,
+      slot: currentSlot,
+    };
   }
 
-  if (anyChange || !fs.existsSync("README.md")) {
+  // Kirim notifikasi Discord hanya untuk lokasi dengan analisis BMKG baru (agar tidak spam)
+  for (let i = 0; i < notifiedLocations.length; i++) {
+    const { loc, fc } = notifiedLocations[i];
+    await sendToDiscord(loc, fc);
+    if (i < notifiedLocations.length - 1) {
+      await sleep(1000);
+    }
+  }
+
+  const readmeMissing = !fs.existsSync("README.md");
+  if (readmeNeedsUpdate || readmeMissing) {
     updateReadme(results);
     writeState(newState);
     console.log("📄 README.md + data/last-cuaca.json diperbarui.");

@@ -3,6 +3,7 @@ import { WEBHOOK_URL } from "./config.js";
 import { weatherEmoji, windDirId, isRain } from "./readme.js";
 
 const jamWib = (ldt) => String(ldt).slice(11, 16);
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 export async function sendToDiscord(loc, fc) {
   if (!WEBHOOK_URL) return false;
@@ -34,12 +35,23 @@ export async function sendToDiscord(loc, fc) {
     ],
   };
 
-  try {
-    await axios.post(WEBHOOK_URL, payload);
-    console.log(`📨 Webhook terkirim untuk ${loc.label}.`);
-    return true;
-  } catch (err) {
-    console.error(`Gagal kirim webhook ${loc.label}:`, err.message);
-    return false;
+  const maxRetries = 3;
+  for (let attempt = 0; attempt < maxRetries; attempt++) {
+    try {
+      await axios.post(WEBHOOK_URL, payload);
+      console.log(`📨 Webhook terkirim untuk ${loc.label}.`);
+      return true;
+    } catch (err) {
+      if (err.response?.status === 429 && attempt < maxRetries - 1) {
+        const retryAfter = Number(err.response.headers?.["retry-after"]) || 2;
+        console.warn(`⏳ Discord rate-limit. Menunggu ${retryAfter} detik...`);
+        await sleep((retryAfter + 0.5) * 1000);
+        continue;
+      }
+      console.error(`Gagal kirim webhook ${loc.label}:`, err.message);
+      return false;
+    }
   }
+
+  return false;
 }
