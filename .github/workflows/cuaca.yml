@@ -3,9 +3,7 @@ name: BMKG Cuaca Monitor
 on:
   schedule:
     - cron: "*/30 * * * *"
-
   workflow_dispatch:
-
   push:
     paths:
       - ".github/workflows/cuaca.yml"
@@ -29,13 +27,23 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Git
+      - name: Setup Git & SSH Signing
         run: |
           set -euo pipefail
 
-          git config user.name "RusdiEneri"
-          git config user.email "nuruddinrusydiilham@gmail.com"
-          git config pull.rebase true
+          git config --global user.name "RusdiEneri"
+          git config --global user.email "nuruddinrusydiilham@gmail.com"
+          git config --global pull.rebase true
+
+          # Simpan Private SSH Key dari GitHub Secrets ke file runner
+          mkdir -p ~/.ssh
+          echo "${{ secrets.COMMIT_SIGNING_KEY }}" > ~/.ssh/commit_signing_key
+          chmod 600 ~/.ssh/commit_signing_key
+
+          # Konfigurasi Git agar menggunakan format SSH untuk commit signing
+          git config --global gpg.format ssh
+          git config --global user.signingkey ~/.ssh/commit_signing_key
+          git config --global commit.gpgsign true
 
           git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
 
@@ -94,7 +102,9 @@ jobs:
           set -euo pipefail
 
           TIMESTAMP=$(TZ=Asia/Jakarta date +"%Y-%m-%d %H:%M:%S WIB")
-          git commit -m "docs: update prakiraan cuaca README - $TIMESTAMP [skip ci]"
+          
+          # Flag -S memastikan commit di-sign secara eksplisit
+          git commit -S -m "docs: update prakiraan cuaca README - $TIMESTAMP [skip ci]"
 
           BRANCH="${GITHUB_REF_NAME:-main}"
 
