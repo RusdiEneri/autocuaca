@@ -2,8 +2,8 @@
 
 > Prakiraan cuaca resmi **BMKG** (3 hari ke depan, interval 3 jam) untuk wilayah **Tuban Kota** dan **Gresik Kota**, diperbarui otomatis oleh GitHub Actions dan ditampilkan langsung di README ini.
 
-🕒 **Update terakhir:** Selasa, 13 Oktober 2026 pukul 15.38.07
-🛰️ **Analisis data BMKG:** 2026-10-13T00:00:00
+🕒 **Update terakhir:** Selasa, 13 Oktober 2026 pukul 23.32.43
+🛰️ **Analisis data BMKG:** 2026-10-13T12:00:00
 📡 **Sumber data:** [BMKG — Data Prakiraan Cuaca Terbuka](https://data.bmkg.go.id/prakiraan-cuaca/)
 
 ---
@@ -12,8 +12,8 @@
 
 | Lokasi | Cuaca | Suhu | Kelembapan | Angin | Jam |
 | --- | --- | --- | --- | --- | --- |
-| Tuban Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22"> ☁️ Berawan | 28°C | 80% | 23 km/j | 16:00 WIB |
-| Gresik Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22"> ☁️ Berawan | 31°C | 47% | 23.3 km/j | 16:00 WIB |
+| Tuban Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22"> ☀️ Cerah | 25°C | 84% | 8.8 km/j | 00:00 WIB |
+| Gresik Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22"> ☀️ Cerah | 27°C | 81% | 6 km/j | 00:00 WIB |
 
 ---
 
@@ -22,48 +22,48 @@
 > Karangsari, Kec. Tuban, Kab. Tuban, Jawa Timur
 > 🧭 Koordinat: -6.8870491603, 112.0525513055 • ⏰ Zona waktu: Asia/Jakarta • 🆔 adm4: `35.23.16.1007`
 
-### 📅 Selasa, 13 Oktober 2026
-
-| 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
-| --- | --- | --- | --- | --- | --- | --- |
-| 16:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 28°C | 80% | 23 km/j | dari Timur Laut | – |
-| 19:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 28°C | 84% | 12.6 km/j | dari Timur Laut | – |
-| 22:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 83% | 8.6 km/j | dari Tenggara | – |
-
 ### 📅 Rabu, 14 Oktober 2026
 
 | 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
 | --- | --- | --- | --- | --- | --- | --- |
-| 01:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 24°C | 85% | 8 km/j | dari Selatan | – |
-| 04:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 24°C | 89% | 8.8 km/j | dari Selatan | – |
-| 07:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 28°C | 70% | 11.3 km/j | dari Selatan | – |
-| 10:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah%20berawan-am.svg" width="22" alt="Cerah Berawan"> 🌤️ Cerah Berawan | 31°C | 59% | 5.4 km/j | dari Timur | – |
-| 13:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 30°C | 66% | 16.4 km/j | dari Utara | – |
-| 16:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah%20berawan-am.svg" width="22" alt="Cerah Berawan"> 🌤️ Cerah Berawan | 29°C | 72% | 19.4 km/j | dari Utara | – |
-| 19:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 27°C | 78% | 6.5 km/j | dari Timur Laut | – |
-| 22:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 80% | 11.1 km/j | dari Selatan | – |
+| 00:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 25°C | 84% | 8.8 km/j | dari Selatan | – |
+| 03:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/udara%20kabur.svg" width="22" alt="Udara Kabur"> 🌫️ Udara Kabur | 24°C | 88% | 9.3 km/j | dari Selatan | – |
+| 06:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 27°C | 76% | 12.1 km/j | dari Selatan | – |
+| 09:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 31°C | 56% | 4.5 km/j | dari Timur | – |
+| 12:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 32°C | 66% | 15.1 km/j | dari Utara | – |
+| 15:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 29°C | 73% | 12.8 km/j | dari Utara | – |
+| 18:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 28°C | 76% | 8.6 km/j | dari Timur Laut | – |
+| 21:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 82% | 11.1 km/j | dari Selatan | – |
 
 ### 📅 Kamis, 15 Oktober 2026
 
 | 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
 | --- | --- | --- | --- | --- | --- | --- |
-| 01:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 24°C | 89% | 7.4 km/j | dari Selatan | – |
-| 04:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22" alt="Berawan"> ☁️ Berawan | 24°C | 92% | 7.7 km/j | dari Selatan | – |
-| 07:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 28°C | 74% | 7.3 km/j | dari Tenggara | – |
-| 10:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 31°C | 60% | 16.7 km/j | dari Utara | – |
-| 13:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 30°C | 66% | 16.7 km/j | dari Utara | – |
-| 16:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 29°C | 75% | 8.9 km/j | dari Timur Laut | – |
-| 19:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22" alt="Berawan"> ☁️ Berawan | 27°C | 82% | 8.9 km/j | dari Timur Laut | – |
-| 22:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 84% | 9.5 km/j | dari Selatan | – |
+| 00:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 25°C | 86% | 8.9 km/j | dari Selatan | – |
+| 03:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 24°C | 91% | 8.1 km/j | dari Selatan | – |
+| 06:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 27°C | 78% | 8.6 km/j | dari Tenggara | – |
+| 09:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah%20berawan-am.svg" width="22" alt="Cerah Berawan"> 🌤️ Cerah Berawan | 31°C | 60% | 7.8 km/j | dari Timur | – |
+| 12:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 32°C | 65% | 16.8 km/j | dari Utara | – |
+| 15:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 30°C | 71% | 17 km/j | dari Timur Laut | – |
+| 18:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22" alt="Berawan"> ☁️ Berawan | 28°C | 84% | 7.8 km/j | dari Timur Laut | – |
+| 21:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22" alt="Berawan"> ☁️ Berawan | 26°C | 84% | 12.3 km/j | dari Selatan | – |
+
+### 📅 Jumat, 16 Oktober 2026
+
+| 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
+| --- | --- | --- | --- | --- | --- | --- |
+| 00:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 25°C | 87% | 9.7 km/j | dari Selatan | – |
+| 03:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 24°C | 89% | 11 km/j | dari Selatan | – |
+| 06:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 27°C | 75% | 15 km/j | dari Selatan | – |
 
 
 ### 🗓️ Ringkasan 3 Hari
 
 | Hari | Cuaca Dominan | Suhu | Kelembapan |
 | --- | --- | --- | --- |
-| Selasa, 13 Oktober 2026 | ☀️ Cerah | 26–28°C | 80–84% |
-| Rabu, 14 Oktober 2026 | ☀️ Cerah | 24–31°C | 59–89% |
-| Kamis, 15 Oktober 2026 | ☁️ Berawan | 24–31°C | 60–92% |
+| Rabu, 14 Oktober 2026 | ☀️ Cerah | 24–32°C | 56–88% |
+| Kamis, 15 Oktober 2026 | ☁️ Berawan | 24–32°C | 60–91% |
+| Jumat, 16 Oktober 2026 | ☀️ Cerah | 24–27°C | 75–89% |
 
 ---
 
@@ -72,48 +72,48 @@
 > Trate, Kec. Gresik, Kab. Gresik, Jawa Timur
 > 🧭 Koordinat: -7.1556599248, 112.6520972518 • ⏰ Zona waktu: Asia/Jakarta • 🆔 adm4: `35.25.16.1008`
 
-### 📅 Selasa, 13 Oktober 2026
-
-| 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
-| --- | --- | --- | --- | --- | --- | --- |
-| 16:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 31°C | 47% | 23.3 km/j | dari Timur | – |
-| 19:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22" alt="Berawan"> ☁️ Berawan | 29°C | 65% | 15.2 km/j | dari Timur | – |
-| 22:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 28°C | 78% | 15 km/j | dari Timur | – |
-
 ### 📅 Rabu, 14 Oktober 2026
 
 | 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
 | --- | --- | --- | --- | --- | --- | --- |
-| 01:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 84% | 7.1 km/j | dari Timur | – |
-| 04:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 25°C | 89% | 5.8 km/j | dari Barat | – |
-| 07:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 30°C | 65% | 6.2 km/j | dari Barat Daya | – |
-| 10:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 34°C | 41% | 8.7 km/j | dari Timur Laut | – |
-| 13:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 34°C | 43% | 25.9 km/j | dari Timur | – |
-| 16:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah%20berawan-am.svg" width="22" alt="Cerah Berawan"> 🌤️ Cerah Berawan | 32°C | 47% | 25.6 km/j | dari Timur | – |
-| 19:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 29°C | 48% | 16 km/j | dari Timur | – |
-| 22:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 27°C | 74% | 10.5 km/j | dari Timur | – |
+| 00:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 27°C | 81% | 6 km/j | dari Timur | – |
+| 03:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 25°C | 90% | 8.1 km/j | dari Barat | – |
+| 06:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 27°C | 73% | 6.1 km/j | dari Barat Daya | – |
+| 09:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 33°C | 49% | 7.4 km/j | dari Timur Laut | – |
+| 12:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 34°C | 41% | 16.6 km/j | dari Timur | – |
+| 15:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 32°C | 49% | 14 km/j | dari Timur Laut | – |
+| 18:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 30°C | 54% | 15.3 km/j | dari Timur | – |
+| 21:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 28°C | 70% | 7.7 km/j | dari Timur | – |
 
 ### 📅 Kamis, 15 Oktober 2026
 
 | 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
 | --- | --- | --- | --- | --- | --- | --- |
-| 01:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 83% | 7.1 km/j | dari Timur | – |
-| 04:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22" alt="Berawan"> ☁️ Berawan | 25°C | 91% | 1.4 km/j | dari Barat Laut | – |
-| 07:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 30°C | 69% | 2.9 km/j | dari Barat | – |
-| 10:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 35°C | 33% | 20.2 km/j | dari Timur | – |
-| 13:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 34°C | 38% | 20.2 km/j | dari Timur | – |
-| 16:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 32°C | 46% | 17.9 km/j | dari Timur | – |
-| 19:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah%20berawan-pm.svg" width="22" alt="Cerah Berawan"> 🌤️ Cerah Berawan | 29°C | 58% | 17.9 km/j | dari Timur | – |
-| 22:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 28°C | 75% | 3.9 km/j | dari Timur Laut | – |
+| 00:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 81% | 2.4 km/j | dari Timur | – |
+| 03:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 25°C | 90% | 4.4 km/j | dari Barat | – |
+| 06:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 27°C | 78% | 2.3 km/j | dari Barat Daya | – |
+| 09:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 34°C | 38% | 15.9 km/j | dari Timur | – |
+| 12:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 35°C | 34% | 20.6 km/j | dari Timur | – |
+| 15:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 33°C | 43% | 17.6 km/j | dari Timur | – |
+| 18:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22" alt="Berawan"> ☁️ Berawan | 29°C | 56% | 16.3 km/j | dari Timur | – |
+| 21:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22" alt="Berawan"> ☁️ Berawan | 28°C | 72% | 8.2 km/j | dari Timur Laut | – |
+
+### 📅 Jumat, 16 Oktober 2026
+
+| 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
+| --- | --- | --- | --- | --- | --- | --- |
+| 00:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 84% | 4.8 km/j | dari Barat Laut | – |
+| 03:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 25°C | 88% | 7.7 km/j | dari Barat Daya | – |
+| 06:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 28°C | 71% | 4.8 km/j | dari Barat Daya | – |
 
 
 ### 🗓️ Ringkasan 3 Hari
 
 | Hari | Cuaca Dominan | Suhu | Kelembapan |
 | --- | --- | --- | --- |
-| Selasa, 13 Oktober 2026 | ☁️ Berawan | 28–31°C | 47–78% |
-| Rabu, 14 Oktober 2026 | ☀️ Cerah | 25–34°C | 41–89% |
-| Kamis, 15 Oktober 2026 | ☁️ Berawan | 25–35°C | 33–91% |
+| Rabu, 14 Oktober 2026 | ☀️ Cerah | 25–34°C | 41–90% |
+| Kamis, 15 Oktober 2026 | ☁️ Berawan | 25–35°C | 34–90% |
+| Jumat, 16 Oktober 2026 | ☀️ Cerah | 25–28°C | 71–88% |
 
 ---
 
