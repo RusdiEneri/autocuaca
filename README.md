@@ -2,7 +2,7 @@
 
 > Prakiraan cuaca resmi **BMKG** (3 hari ke depan, interval 3 jam) untuk wilayah **Tuban Kota** dan **Gresik Kota**, diperbarui otomatis oleh GitHub Actions dan ditampilkan langsung di README ini.
 
-🕒 **Update terakhir:** Minggu, 18 Oktober 2026 pukul 20.23.34
+🕒 **Update terakhir:** Minggu, 18 Oktober 2026 pukul 23.37.51
 🛰️ **Analisis data BMKG:** 2026-10-18T12:00:00
 📡 **Sumber data:** [BMKG — Data Prakiraan Cuaca Terbuka](https://data.bmkg.go.id/prakiraan-cuaca/)
 
@@ -12,8 +12,8 @@
 
 | Lokasi | Cuaca | Suhu | Kelembapan | Angin | Jam |
 | --- | --- | --- | --- | --- | --- |
-| Tuban Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22"> ☀️ Cerah | 27°C | 85% | 9.7 km/j | 21:00 WIB |
-| Gresik Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22"> ☀️ Cerah | 28°C | 72% | 10.8 km/j | 21:00 WIB |
+| Tuban Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22"> ☀️ Cerah | 26°C | 85% | 7.9 km/j | 00:00 WIB |
+| Gresik Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22"> ☀️ Cerah | 27°C | 80% | 5.1 km/j | 00:00 WIB |
 
 ---
 
@@ -21,12 +21,6 @@
 
 > Karangsari, Kec. Tuban, Kab. Tuban, Jawa Timur
 > 🧭 Koordinat: -6.8870491603, 112.0525513055 • ⏰ Zona waktu: Asia/Jakarta • 🆔 adm4: `35.23.16.1007`
-
-### 📅 Minggu, 18 Oktober 2026
-
-| 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
-| --- | --- | --- | --- | --- | --- | --- |
-| 21:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 27°C | 85% | 9.7 km/j | dari Selatan | – |
 
 ### 📅 Senin, 19 Oktober 2026
 
@@ -54,14 +48,22 @@
 | 18:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 28°C | 74% | 1.4 km/j | dari Barat Laut | – |
 | 21:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 27°C | 81% | 7.9 km/j | dari Selatan | – |
 
+### 📅 Rabu, 21 Oktober 2026
+
+| 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
+| --- | --- | --- | --- | --- | --- | --- |
+| 00:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 82% | 10.5 km/j | dari Selatan | – |
+| 03:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 84% | 12.6 km/j | dari Selatan | – |
+| 06:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 83% | 12.9 km/j | dari Selatan | – |
+
 
 ### 🗓️ Ringkasan 3 Hari
 
 | Hari | Cuaca Dominan | Suhu | Kelembapan |
 | --- | --- | --- | --- |
-| Minggu, 18 Oktober 2026 | ☀️ Cerah | 27–27°C | 85–85% |
 | Senin, 19 Oktober 2026 | ☀️ Cerah | 25–31°C | 63–91% |
 | Selasa, 20 Oktober 2026 | ☀️ Cerah | 25–31°C | 63–85% |
+| Rabu, 21 Oktober 2026 | ☀️ Cerah | 26–26°C | 82–84% |
 
 ---
 
@@ -69,12 +71,6 @@
 
 > Trate, Kec. Gresik, Kab. Gresik, Jawa Timur
 > 🧭 Koordinat: -7.1556599248, 112.6520972518 • ⏰ Zona waktu: Asia/Jakarta • 🆔 adm4: `35.25.16.1008`
-
-### 📅 Minggu, 18 Oktober 2026
-
-| 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
-| --- | --- | --- | --- | --- | --- | --- |
-| 21:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 28°C | 72% | 10.8 km/j | dari Timur | – |
 
 ### 📅 Senin, 19 Oktober 2026
 
@@ -102,14 +98,22 @@
 | 18:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 30°C | 71% | 6.7 km/j | dari Timur Laut | – |
 | 21:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 29°C | 80% | 7.3 km/j | dari Utara | – |
 
+### 📅 Rabu, 21 Oktober 2026
+
+| 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
+| --- | --- | --- | --- | --- | --- | --- |
+| 00:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 27°C | 85% | 7.3 km/j | dari Barat Laut | – |
+| 03:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 86% | 6 km/j | dari Barat Daya | – |
+| 06:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 27°C | 82% | 5.8 km/j | dari Barat Daya | – |
+
 
 ### 🗓️ Ringkasan 3 Hari
 
 | Hari | Cuaca Dominan | Suhu | Kelembapan |
 | --- | --- | --- | --- |
-| Minggu, 18 Oktober 2026 | ☀️ Cerah | 28–28°C | 72–72% |
 | Senin, 19 Oktober 2026 | ☀️ Cerah | 26–37°C | 31–88% |
 | Selasa, 20 Oktober 2026 | ☀️ Cerah | 26–35°C | 51–86% |
+| Rabu, 21 Oktober 2026 | ☀️ Cerah | 26–27°C | 82–86% |
 
 ---
 
