@@ -2,7 +2,7 @@
 
 > Prakiraan cuaca resmi **BMKG** (3 hari ke depan, interval 3 jam) untuk wilayah **Tuban Kota** dan **Gresik Kota**, diperbarui otomatis oleh GitHub Actions dan ditampilkan langsung di README ini.
 
-🕒 **Update terakhir:** Kamis, 22 Oktober 2026 pukul 02.26.10
+🕒 **Update terakhir:** Kamis, 22 Oktober 2026 pukul 05.32.51
 🛰️ **Analisis data BMKG:** 2026-10-21T12:00:00
 📡 **Sumber data:** [BMKG — Data Prakiraan Cuaca Terbuka](https://data.bmkg.go.id/prakiraan-cuaca/)
 
@@ -12,8 +12,8 @@
 
 | Lokasi | Cuaca | Suhu | Kelembapan | Angin | Jam |
 | --- | --- | --- | --- | --- | --- |
-| Tuban Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22"> ☀️ Cerah | 26°C | 75% | 13 km/j | 03:00 WIB |
-| Gresik Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22"> ☀️ Cerah | 26°C | 84% | 4.3 km/j | 03:00 WIB |
+| Tuban Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22"> ☀️ Cerah | 26°C | 72% | 14.8 km/j | 06:00 WIB |
+| Gresik Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22"> ☀️ Cerah | 26°C | 79% | 2.4 km/j | 06:00 WIB |
 
 ---
 
@@ -26,7 +26,6 @@
 
 | 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
 | --- | --- | --- | --- | --- | --- | --- |
-| 03:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 75% | 13 km/j | dari Selatan | – |
 | 06:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 72% | 14.8 km/j | dari Selatan | – |
 | 09:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 31°C | 56% | 6.2 km/j | dari Tenggara | – |
 | 12:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 31°C | 59% | 20 km/j | dari Utara | – |
@@ -60,7 +59,7 @@
 
 | Hari | Cuaca Dominan | Suhu | Kelembapan |
 | --- | --- | --- | --- |
-| Kamis, 22 Oktober 2026 | ☀️ Cerah | 26–31°C | 56–75% |
+| Kamis, 22 Oktober 2026 | ☀️ Cerah | 26–31°C | 56–73% |
 | Jumat, 23 Oktober 2026 | 🌤️ Cerah Berawan | 25–32°C | 52–82% |
 | Sabtu, 24 Oktober 2026 | ☀️ Cerah | 25–26°C | 78–81% |
 
@@ -75,7 +74,6 @@
 
 | 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
 | --- | --- | --- | --- | --- | --- | --- |
-| 03:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-pm.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 84% | 4.3 km/j | dari Barat Daya | – |
 | 06:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 26°C | 79% | 2.4 km/j | dari Barat Daya | – |
 | 09:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 32°C | 49% | 10.6 km/j | dari Timur | – |
 | 12:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah-am.svg" width="22" alt="Cerah"> ☀️ Cerah | 35°C | 35% | 21.8 km/j | dari Timur | – |
@@ -109,7 +107,7 @@
 
 | Hari | Cuaca Dominan | Suhu | Kelembapan |
 | --- | --- | --- | --- |
-| Kamis, 22 Oktober 2026 | ☀️ Cerah | 26–35°C | 35–84% |
+| Kamis, 22 Oktober 2026 | ☀️ Cerah | 26–35°C | 35–79% |
 | Jumat, 23 Oktober 2026 | 🌤️ Cerah Berawan | 26–35°C | 36–85% |
 | Sabtu, 24 Oktober 2026 | ☀️ Cerah | 26–28°C | 70–79% |
 
