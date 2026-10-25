@@ -2,7 +2,7 @@
 
 > Prakiraan cuaca resmi **BMKG** (3 hari ke depan, interval 3 jam) untuk wilayah **Tuban Kota** dan **Gresik Kota**, diperbarui otomatis oleh GitHub Actions dan ditampilkan langsung di README ini.
 
-🕒 **Update terakhir:** Senin, 26 Oktober 2026 pukul 01.28.49
+🕒 **Update terakhir:** Senin, 26 Oktober 2026 pukul 04.04.03
 🛰️ **Analisis data BMKG:** 2026-10-25T12:00:00
 📡 **Sumber data:** [BMKG — Data Prakiraan Cuaca Terbuka](https://data.bmkg.go.id/prakiraan-cuaca/)
 
@@ -12,8 +12,8 @@
 
 | Lokasi | Cuaca | Suhu | Kelembapan | Angin | Jam |
 | --- | --- | --- | --- | --- | --- |
-| Tuban Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22"> ☁️ Berawan | 26°C | 83% | 12 km/j | 02:00 WIB |
-| Gresik Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22"> ☁️ Berawan | 26°C | 86% | 5.8 km/j | 02:00 WIB |
+| Tuban Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah%20berawan-pm.svg" width="22"> 🌤️ Cerah Berawan | 25°C | 85% | 11.8 km/j | 05:00 WIB |
+| Gresik Kota | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah%20berawan-pm.svg" width="22"> 🌤️ Cerah Berawan | 26°C | 87% | 7.5 km/j | 05:00 WIB |
 
 ---
 
@@ -26,7 +26,6 @@
 
 | 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
 | --- | --- | --- | --- | --- | --- | --- |
-| 02:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22" alt="Berawan"> ☁️ Berawan | 26°C | 83% | 12 km/j | dari Selatan | – |
 | 05:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah%20berawan-pm.svg" width="22" alt="Cerah Berawan"> 🌤️ Cerah Berawan | 25°C | 85% | 11.8 km/j | dari Tenggara | – |
 | 08:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah%20berawan-am.svg" width="22" alt="Cerah Berawan"> 🌤️ Cerah Berawan | 29°C | 70% | 10.1 km/j | dari Selatan | – |
 | 11:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 30°C | 65% | 5.8 km/j | dari Timur Laut | – |
@@ -75,7 +74,6 @@
 
 | 🕒 Jam (WIB) | ☁️ Cuaca | 🌡️ Suhu | 💧 Kelembapan | 💨 Angin | 🧭 Arah | 👁️ Jarak Pandang |
 | --- | --- | --- | --- | --- | --- | --- |
-| 02:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-pm.svg" width="22" alt="Berawan"> ☁️ Berawan | 26°C | 86% | 5.8 km/j | dari Barat | – |
 | 05:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah%20berawan-pm.svg" width="22" alt="Cerah Berawan"> 🌤️ Cerah Berawan | 26°C | 87% | 7.5 km/j | dari Barat | – |
 | 08:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/cerah%20berawan-am.svg" width="22" alt="Cerah Berawan"> 🌤️ Cerah Berawan | 30°C | 63% | 3.4 km/j | dari Selatan | – |
 | 11:00 | <img src="https://api-apps.bmkg.go.id/storage/icon/cuaca/berawan-am.svg" width="22" alt="Berawan"> ☁️ Berawan | 34°C | 50% | 3.3 km/j | dari Utara | – |
